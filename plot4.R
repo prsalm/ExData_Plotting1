@@ -9,7 +9,7 @@
 # Create File & Build Plots 
         png(filename="plot4.png", width=480, height=480) #specifies output to PNG and sets width and height
        
-        par(mfcol=c(2,2), mar=c(4,4,2,2), cex=.6) #create 2 x 2 plot structure
+        par(mfcol=c(2,2), mar=c(4,4,2,2), cex=.8) #create 2 x 2 plot structure
         
         #Plot 1
         plot(power_sub$Global_active_power, 
